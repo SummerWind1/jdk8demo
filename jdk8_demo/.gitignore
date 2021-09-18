@@ -4,6 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+E:\workspace\local\.idea
+
 ### STS ###
 .apt_generated
 .classpath
@@ -18,6 +20,10 @@ target/
 *.iws
 *.iml
 *.ipr
+
+.idea/*
+
+!.mvn/*
 
 ### NetBeans ###
 /nbproject/private/

@@ -12,5 +12,4 @@ public class Jdk8DemoApplication {
         SpringApplication.run(Jdk8DemoApplication.class, args);
     }
 
-
 }
