@@ -2,7 +2,9 @@ package com.example.jdk8_demo.controller;
 
 import com.example.jdk8_demo.async.AsyncDemo;
 import com.example.jdk8_demo.async.Person;
+import com.example.jdk8_demo.factorybean.Cat;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -58,6 +60,18 @@ public class TestController1 {
         CompletableFuture<List<Person>> listCompletableFuture = asyncDemo.asyncMethodDemo2();
 //        System.out.println(listCompletableFuture.get());
         return listCompletableFuture;
+    }
+
+
+    /**
+     * factoryBean
+     */
+    @GetMapping(value = "/factoryBean")
+    public void testFactoryBean() {
+
+//        System.out.println(cat.getName());
+//        System.out.println(cat.getAge());
+
     }
 
 }
