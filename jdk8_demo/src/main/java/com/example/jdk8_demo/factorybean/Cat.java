@@ -18,6 +18,14 @@ public class Cat {
 
         System.out.println(1861526906 & 15);
 
+        // 1111 & 1
+        System.out.println(15 & 0x1);
+        System.out.println(0x2);
+        System.out.println(0x3);
+        System.out.println(0x4);
+        System.out.println(0x5);
+
+
     }
 
 }
